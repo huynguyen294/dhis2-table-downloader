@@ -119,3 +119,8 @@ th.value {
   text-align: right;
   background-color: #fff;
 }
+td.total,
+th.total {
+  text-align: right;
+  background-color: #d8d8d8;
+}
