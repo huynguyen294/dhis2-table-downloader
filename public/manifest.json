@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "DHIS2 event report downloader",
+  "version": "1.0",
+  "description": "DHIS2 event report downloader",
+  "permissions": ["tabs", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "images/dhis-web-event-reports.png",
+      "32": "images/dhis-web-event-reports.png",
+      "48": "images/dhis-web-event-reports.png",
+      "128": "images/dhis-web-event-reports.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}

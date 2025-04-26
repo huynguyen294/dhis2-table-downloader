@@ -1,0 +1,121 @@
+td,
+th {
+  border: thin solid #b2b2b2;
+  padding: 7px;
+  font-weight: normal;
+}
+/* event report */
+.disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+.text-weak {
+  color: #303038;
+}
+.align-left {
+  text-align: left;
+}
+.align-right {
+  text-align: right;
+}
+.font-size-0 {
+  font-size: 0;
+}
+.text-medium {
+  font-weight: 600;
+}
+td.pivot-dim {
+  background-color: #dae6f8 !important;
+  text-align: center;
+}
+td.pivot-dim.highlighted {
+  background-color: #c5d8f6 !important;
+}
+td.pivot-dim-subtotal {
+  background-color: #cad6e8 !important;
+  text-align: center;
+}
+td.pivot-dim-total {
+  background-color: #bac6d8 !important;
+  text-align: center;
+}
+td.pivot-dim-total.highlighted {
+  background-color: #adb8c9 !important;
+}
+td.pivot-dim-label {
+  white-space: nowrap;
+  text-align: center;
+}
+td.pivot-dim-label,
+td.pivot-empty {
+  background-color: #cddaed !important;
+}
+td.pivot-transparent-column {
+  background-color: #fff !important;
+  border-top-color: #fff !important;
+  border-right-color: #fff !important;
+}
+td.pivot-transparent-row {
+  background-color: #fff !important;
+  border-bottom-color: #fff !important;
+  border-left-color: #fff !important;
+}
+td.pivot-value {
+  background-color: #fff !important;
+  text-align: right;
+  max-width: 700px;
+}
+td.pivot-value.highlighted {
+  background-color: #f3f3f3 !important;
+}
+td.pivot-value-subtotal {
+  background-color: #f4f4f4 !important;
+  white-space: nowrap;
+  text-align: right;
+}
+td.pivot-value-subtotal-total {
+  background-color: #e7e7e7 !important;
+  white-space: nowrap;
+  text-align: right;
+}
+td.pivot-value-total {
+  background-color: #e4e4e4 !important;
+  white-space: nowrap;
+  text-align: right;
+}
+td.pivot-value-total-subgrandtotal {
+  background-color: #d8d8d8 !important;
+  white-space: nowrap;
+  text-align: right;
+}
+td.pivot-value-grandtotal {
+  background-color: #c8c8c8 !important;
+  white-space: nowrap;
+  text-align: right;
+}
+td.pivot-filter {
+  background-color: #c7d5e9 !important;
+  text-align: center;
+  padding: 7px;
+  color: #222;
+  font-weight: 600;
+}
+.number {
+  display: table-cell;
+  mso-number-format: "0";
+}
+/* data visualizer */
+td.column-header,
+td.row-header,
+td.empty-header,
+th.column-header,
+th.row-header,
+th.empty-header {
+  font-weight: bold;
+  background-color: #cddaed;
+}
+td.value,
+th.value {
+  text-align: right;
+  background-color: #fff;
+}
